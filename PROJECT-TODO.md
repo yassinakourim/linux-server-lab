@@ -11,13 +11,20 @@ status: in-progress
 > - Only attack your own lab VM, on a host-only network.
 
 ## Phase 0: Setup
-- [ ] Install a hypervisor (VirtualBox, VMware, or KVM) on Kali
-- [ ] Download the Ubuntu Server ISO
-- [ ] Create the VM (2 CPU, 2 GB RAM, 20 GB disk, plus a 2 GB second disk)
-- [ ] Set the network to host-only (or internal)
-- [ ] Install Ubuntu Server with OpenSSH enabled
-- [ ] Create a GitHub repo for the project
-- [ ] Take snapshot: `clean-install`
+- [x] Install a hypervisor (VirtualBox, VMware, or KVM) on Kali
+- [x] Download the Ubuntu Server ISO
+- [x] Create the VM (2 CPU, 2 GB RAM, 20 GB disk, plus a 2 GB second disk)
+- [x] Set the network to host-only (or internal)
+- [x] Install Ubuntu Server with OpenSSH enabled
+- [x] Create a GitHub repo for the project
+- [x] Take snapshot: `clean-install`
+- [x]  Documentation: vault is the repo, `.gitignore` created
+- [x]  GitHub repo created and cloned
+- [x]  SSH key added to GitHub
+- [x]  VM updated, SSH running
+- [x]  Host-only adapter and second disk added
+- [x]  Snapshot `clean-install` taken
+- [ ]  `00-setup.md` written and pushed
 
 ## Phase 1: Foundation
 - [ ] Set a static IP (check Netplan: `/etc/netplan/`)
