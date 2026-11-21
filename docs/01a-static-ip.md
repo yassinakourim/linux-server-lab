@@ -45,7 +45,7 @@ nmcli device status
 nmcli connection show
 ```
 
-![[interface-name.png]]
+![interface-name.png](assets/interface-name.png)
 
 - the name of the host-only connection is **Wired connection 1 
 ### Step 1: add the static IP next to DHCP
@@ -64,7 +64,7 @@ In the host terminal :
 ssh sysadmin@192.168.56.10
 ```
 - The connection succeed :
-		![[ssh-new-ip.png]]
+		![ssh-new-ip.png](assets/ssh-new-ip.png)
 
 ### Step 3: remove DHCP from that card
 ```bash
