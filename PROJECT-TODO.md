@@ -1,6 +1,10 @@
 ---
-tags: [linux, project, homelab]
+tags:
+  - linux
+  - project
+  - homelab
 status: in-progress
+Links:
 ---
 
 # Linux Server Lab: Build, Harden, Attack, Audit
@@ -24,7 +28,7 @@ status: in-progress
 - [x]  VM updated, SSH running
 - [x]  Host-only adapter and second disk added
 - [x]  Snapshot `clean-install` taken
-- [ ]  `00-setup.md` written and pushed
+- [x]  `00-setup.md` written and pushed
 
 ## Phase 1: Foundation
 - [ ] Set a static IP (check Netplan: `/etc/netplan/`)
