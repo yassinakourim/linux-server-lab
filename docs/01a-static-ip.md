@@ -2,7 +2,8 @@
 tags:
   - phase1
 date: 2026-11-21
-Links: "[[2026-11-21]]"
+status:
+Links:
 ---
 ## Why do we need a static IP address :
 Because of [[DHCP]] lease :
@@ -83,10 +84,16 @@ ipv4.method:                            manual
 ipv4.addresses:                         192.168.56.10/24
 ```
 ### Step 4: update the host shortcut
-```nano
+use the command :
+```bash
+nano ~/.ssh/config
+```
+- then change the IP :
+```text
 Host lab
     HostName 192.168.56.10
     User sysadmin
 ```
+
 
 

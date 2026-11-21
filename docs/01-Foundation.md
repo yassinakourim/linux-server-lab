@@ -4,7 +4,8 @@ tags:
   - homelab
   - htb
 date: 2026-11-21
-status: on progress
+status: in-progress
+Links:
 ---
 
 ## Objective
@@ -31,4 +32,4 @@ What could go wrong here? What did I harden?
 Errors I hit and how I fixed them.
 
 ## What I learned
-- Network manger is the part that is responsible for 
+- NetworkManger is the application that manage the network connection in the system . 
