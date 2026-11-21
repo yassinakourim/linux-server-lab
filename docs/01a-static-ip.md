@@ -11,9 +11,8 @@ Because of [[DHCP]] lease :
 ## Keeping SSH alive during the change :
 - the configuration files in the machine are :
 00-installer-config.yaml : only describe the enp0s3 interface 
-  ```shell
+  ```bash
 sysadmin@sysadmin-VirtualBox:/etc/netplan$ sudo cat 00-installer-config.yaml 
-#This is the network config written by 'subiquity'
 network:
   ethernets:
     enp0s3:
@@ -27,9 +26,8 @@ network:
 
   for the rest :
 
-  ```shell
+  ```bash
   sysadmin@sysadmin-VirtualBox:/etc/netplan$ sudo cat 01-network-manager-all.yaml 
-#Let NetworkManager manage all devices on this system                      
 network:                                                                    
   version: 2                                                                
   renderer: NetworkManager      
