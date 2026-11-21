@@ -3,6 +3,9 @@ tags:
   - homelab
   - linux
   - htb
+date: 2026-11-11
+status: done
+Links:
 ---
 
 ## Objective

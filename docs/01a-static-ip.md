@@ -2,7 +2,7 @@
 tags:
   - phase1
 date: 2026-11-21
-status:
+status: done
 Links:
 ---
 ## Why do we need a static IP address :
